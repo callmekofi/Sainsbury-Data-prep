@@ -18,16 +18,17 @@ https://www.jetbrains.com/pycharm/download/
 #### Creating a virtual environment
 
 Ensure your pip (package manager) is up to date:
-
-```bash
-pip3 install --upgrade pip
-```
-
 To check your pip version run:
 
 ```bash
 pip3 --version
 ```
+
+
+```bash
+pip3 install --upgrade pip
+```
+
 
 Create the virtual environment in the root of the cloned project:
 
