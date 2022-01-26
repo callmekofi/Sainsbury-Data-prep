@@ -76,5 +76,5 @@ This should produce customers, products and transaction data under `./input_data
 
 #### Getting started
 
-The skeleton of a possible solution is provided in `./solution/solution_start.py`
+The framework of a possible solution is provided in `./solution/solution_start.py`
 You do not have to use this code if you want to approach the problem in a different way.
