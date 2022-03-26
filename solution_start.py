@@ -93,10 +93,10 @@ def to_canonical_date_str(date_to_transform):
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description='Transations_dataset')
-    parser.add_argument('--customers_filepath', required=False, default="/Users/emmanuelsifah/Desktop/Git_Projects/input_data_generator/input_data/starter/customers.csv")
-    parser.add_argument('--products_filepath', required=False, default="/Users/emmanuelsifah/Desktop/Git_Projects/input_data_generator/input_data/starter/products.csv")
-    parser.add_argument('--transactions_filepath', required=False, default="/Users/emmanuelsifah/Desktop/Git_Projects/input_data_generator/input_data/starter/transactions")
-    parser.add_argument('--output_location', required=False, default="/Users/emmanuelsifah/Desktop/Git_Projects/input_data_generator/output")
+    parser.add_argument('--customers_filepath', required=False, default="/Users/kofijackson/Desktop/Git_Projects/input_data_generator/input_data/starter/customers.csv")
+    parser.add_argument('--products_filepath', required=False, default="/Users/kofijackson/Desktop/Git_Projects/input_data_generator/input_data/starter/products.csv")
+    parser.add_argument('--transactions_filepath', required=False, default="/Users/kofijackson/Desktop/Git_Projects/input_data_generator/input_data/starter/transactions")
+    parser.add_argument('--output_location', required=False, default="/Users/kofijackson/Desktop/Git_Projects/input_data_generator/output")
     args = vars(parser.parse_args())
 
     run_transformations(args['customers_filepath'], args['products_filepath'], args['transactions_filepath'], args['output_location'])
