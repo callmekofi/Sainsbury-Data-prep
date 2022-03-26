@@ -5,6 +5,7 @@ from solution.solution_start import get_latest_transaction_date
 
 class TestStart(object):
 
+
     def test_get_latest_transaction_date_returns_most_recent_date(self):
         transactions_df = pandas.concat(
             [
