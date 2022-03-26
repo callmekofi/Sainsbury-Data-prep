@@ -6,7 +6,7 @@ from solution_start import *
 class TestFunctions(unittest.TestCase):
 
     def test_number_of_customers(self):
-        filepath = "/Users/emmanuelsifah/Desktop/Git_Projects/input_data_generator/input_data/starter/customers.csv"
+        filepath = "/Users/kofijackson/Desktop/Git_Projects/input_data_generator/input_data/starter/customers.csv"
         customer_data = read_csv(filepath)
         total_customers = get_number_customers(customer_data)
 
@@ -14,7 +14,7 @@ class TestFunctions(unittest.TestCase):
 
 
     def test_number_of_products(self):
-        filepath = "/Users/emmanuelsifah/Desktop/Git_Projects/input_data_generator/input_data/starter/products.csv"
+        filepath = "/Users/kofijackson/Desktop/Git_Projects/input_data_generator/input_data/starter/products.csv"
         products_data = read_csv(filepath)
         total_products = get_number_products(products_data)
 
