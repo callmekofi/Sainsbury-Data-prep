@@ -18,7 +18,7 @@ def read_json_folder(json_filepath: str):
 def run_transformations(customers_filepath: str, products_filepath: str, transactions_filepath: str, output_location: str):
     customers_df = read_csv(customers_filepath)
 
-    # Modify products_df
+    # Modify products_dataframe
     products_df = read_csv(products_filepath)
     product_list = []
     for row in products_df.iterrows():
